@@ -47,16 +47,7 @@ const appRoutes = [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     HttpModule,
-    FormsModule,
-    PakistanComponent,
-    UaeComponent,
-    UsaComponent,
-    UkComponent,
-    CanadaComponent,
-    AustraliaComponent,
-    AdminComponent,
-    UserFormComponent,
-    CalcComponent
+    FormsModule
   ],
   providers: [TaxCalService],
   bootstrap: [AppComponent]
